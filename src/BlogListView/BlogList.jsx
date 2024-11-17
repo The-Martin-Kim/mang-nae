@@ -40,7 +40,7 @@ function BlogList() {
                 align="center"
                 style={{ marginTop: '10px', marginBottom: '30px' }}
             >
-                작지만 소중한 오늘.
+                오늘도 방문해주셔서 꼬마워요 ~
             </Typography>
 
             <Grid container spacing={4}>

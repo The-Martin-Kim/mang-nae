@@ -28,9 +28,6 @@ function CustomNavbar() {
                     <Nav.Item>
                         <Nav.Link href="/about" className="GowunDodum-Regular">Profile</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="/lecture" className="GowunDodum-Regular">Lecture</Nav.Link>
-                    </Nav.Item>
                 </Nav>
             </Container>
         </Navbar>

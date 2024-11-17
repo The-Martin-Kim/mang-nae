@@ -9,7 +9,6 @@ import CustomFooter from "./components/CustomFooter";
 import ErrorPage from "./components/ErrorPage";
 import ProfilePage from "./components/ProfilePage";
 import ReactGA from "react-ga4";
-import LecturePage from "./Lectures/LecturePage";
 
 const gaTrackingId = process.env.REACT_APP_GA_TRACKING_ID;
 ReactGA.initialize(gaTrackingId);
@@ -37,7 +36,6 @@ function App() {
                     <Routes>
                         <Route path="/" element={<BlogList/>}/>
                         <Route path="/about" element={<ProfilePage/>}/>
-                        <Route path="/lecture" element={<LecturePage/>}/>
                         <Route path="/post/:slug" element={<BlogPost/>}/>
                         <Route path="*" element={<ErrorPage/>}/>
                     </Routes>

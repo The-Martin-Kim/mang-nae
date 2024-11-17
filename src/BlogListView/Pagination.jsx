@@ -6,7 +6,7 @@ const Pagination = ({ totalPages, currentPage, handlePageChange }) => (
         {Array.from({ length: totalPages }, (_, index) => (
             <Button
                 key={index + 1}
-                variant={index + 1 === currentPage ? 'contained' : 'outlined'}
+                variant={index + 1 === currentPage ? 'outlined' : 'text'}
                 onClick={() => handlePageChange(index + 1)}
                 style={{ margin: '0 5px' }}
             >
